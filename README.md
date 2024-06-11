@@ -33,39 +33,39 @@ Download macOS Sequoia Full Installers from the App Store for Intel and Apple Si
 
 1. Enable Beta Updates for your Mac (Sonoma)
 
-<img width="600" alt="2024-06-11 beta updates software update" src="https://github.com/PaulSolt/macOSInstallerVersion/assets/371902/ce13e7ed-7551-4ed2-9f51-03766050581a">
+    <img width="600" alt="2024-06-11 beta updates software update" src="https://github.com/PaulSolt/macOSInstallerVersion/assets/371902/ce13e7ed-7551-4ed2-9f51-03766050581a">
 
 3. Run the command to list the installers
 
-```bash
-softwareupdate --fetch-full-installer --list-full-installers
-```
+    ```bash
+    softwareupdate --fetch-full-installer --list-full-installers
+    ```
+    
+    Output:
+    
+    ```bash
+    softwareupdate --fetch-full-installer --list-full-installers
+    Finding available software
+    Software Update found the following full installers:
+    * Title: macOS 15 beta, Version: 15.0, Size: 14441006KiB, Build: 24A5264n, Deferred: NO
+    * Title: macOS Sonoma, Version: 14.5, Size: 13353373KiB, Build: 23F79, Deferred: NO
+    * Title: macOS Sonoma, Version: 14.4.1, Size: 13298513KiB, Build: 23E224, Deferred: NO
+    * Title: macOS Sonoma, Version: 14.4, Size: 13297753KiB, Build: 23E214, Deferred: NO
+    ```
 
-Output:
-
-```bash
-softwareupdate --fetch-full-installer --list-full-installers
-Finding available software
-Software Update found the following full installers:
-* Title: macOS 15 beta, Version: 15.0, Size: 14441006KiB, Build: 24A5264n, Deferred: NO
-* Title: macOS Sonoma, Version: 14.5, Size: 13353373KiB, Build: 23F79, Deferred: NO
-* Title: macOS Sonoma, Version: 14.4.1, Size: 13298513KiB, Build: 23E224, Deferred: NO
-* Title: macOS Sonoma, Version: 14.4, Size: 13297753KiB, Build: 23E214, Deferred: NO
-```
-
-If you don't see the beta, make sure you did Step 1 to enable beta updates.
+    If you don't see the beta, make sure you did Step 1 to enable beta updates.
 
 4. Run the command to install the version: 
 
-```bash
-softwareupdate --fetch-full-installer --full-installer-version 15.0
-```
-
-Output:
-
-```bash
-➜  SharedSupport softwareupdate --fetch-full-installer --full-installer-version 15.0
-Scanning for 15.0 installer
-Install finished successfully
-```
-
+    ```bash
+    softwareupdate --fetch-full-installer --full-installer-version 15.0
+    ```
+    
+    Output:
+    
+    ```bash
+    ➜  SharedSupport softwareupdate --fetch-full-installer --full-installer-version 15.0
+    Scanning for 15.0 installer
+    Install finished successfully
+    ```
+5. Install using the Installer (it should open up)
