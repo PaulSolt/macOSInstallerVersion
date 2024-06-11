@@ -1,12 +1,14 @@
 # macOSInstallerVersion
 Script to search MacOS Installer App for the Version
 
+The script attaches the `SharedSupport.dmg` to look for a build number for the macOS Installer.
+
 ```bash
 ./get_macos_build.sh '/Applications/Install macOS 15 beta.app'
 ```
 
 
-## Download macOS Beta
+## Option 1: Download macOS Beta Full Installer
 
 Download macOS Sequoia Full Installers from the App Store for Intel and Apple Silicon M1, M2, and M3 Mac computers. You can install this on an external hard drive.
 
@@ -16,8 +18,11 @@ Download from apple (macOS 15.0, 24A5264n, Beta 1): <https://swcdn.apple.com/con
 
 2. Verify the version is correct
 
-## Download macOS Beta from Command Line
+```bash
+./get_macos_build.sh '/Applications/Install macOS 15 beta.app'
+```
 
+## Option 2: Download macOS Beta from Command Line
 
 
 1. Enable Beta Updates for your Mac (Sonoma)
