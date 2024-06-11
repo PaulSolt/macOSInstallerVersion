@@ -12,12 +12,9 @@ The script attaches the `SharedSupport.dmg` to look for a build number for the m
 
 Download macOS Sequoia Full Installers from the App Store for Intel and Apple Silicon M1, M2, and M3 Mac computers. You can install this on an external hard drive.
 
-1. Download macOS Sequoia Full Installer (15.0, Beta 1)
-
-* Download from Apple [macOS 15.0 Beta 1 (24A5264n)](https://swcdn.apple.com/content/downloads/50/33/052-49060-A_SUZPTRSXUG/rshd6um52uzcxnr1u85utqhl124vmsph1c/InstallAssistant.pkg)
-* Download future [macOS Sequoia builds - linked from Mr. Machintosh](https://mrmacintosh.com/macos-sequoia-full-installer-database-download-directly-from-apple)
-
-
+1. Download the "macOS Sequoia Full Installer" directly from Apple [macOS 15.0 Beta 1 (24A5264n)](https://swcdn.apple.com/content/downloads/50/33/052-49060-A_SUZPTRSXUG/rshd6um52uzcxnr1u85utqhl124vmsph1c/InstallAssistant.pkg)
+    1. You can find more direct builds from Mr. Macintosh, since Apple doesn't publish these direct links on their support site.
+    2. Download future [macOS Sequoia builds - linked from Mr. Machintosh](https://mrmacintosh.com/macos-sequoia-full-installer-database-download-directly-from-apple)
 2. Verify the version is correct
 
 ```bash
