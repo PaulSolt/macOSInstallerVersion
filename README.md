@@ -7,6 +7,13 @@ The script attaches the `SharedSupport.dmg` to look for a build number for the m
 ./get_macos_build.sh '/Applications/Install macOS 15 beta.app'
 ```
 
+Output for macOS Beta 1 (Expecting :
+
+```bash
+➜  scripts ./get_macos_build.sh '/Applications/Install macOS 15 beta.app'
+Searching Installer: .......
+macOS Build: 24A5264n
+```
 
 ## Option 1: Download macOS Beta Full Installer
 
@@ -37,13 +44,16 @@ softwareupdate --fetch-full-installer --list-full-installers
 Output:
 
 ```bash
-➜  SharedSupport softwareupdate --fetch-full-installer --list-full-installers
+softwareupdate --fetch-full-installer --list-full-installers
 Finding available software
 Software Update found the following full installers:
+* Title: macOS 15 beta, Version: 15.0, Size: 14441006KiB, Build: 24A5264n, Deferred: NO
 * Title: macOS Sonoma, Version: 14.5, Size: 13353373KiB, Build: 23F79, Deferred: NO
 * Title: macOS Sonoma, Version: 14.4.1, Size: 13298513KiB, Build: 23E224, Deferred: NO
 * Title: macOS Sonoma, Version: 14.4, Size: 13297753KiB, Build: 23E214, Deferred: NO
 ```
+
+If you don't see the beta, make sure you did Step 1 to enable beta updates.
 
 4. Run the command to install the version: 
 
