@@ -14,8 +14,8 @@ Download macOS Sequoia Full Installers from the App Store for Intel and Apple Si
 
 1. Download macOS Sequoia Full Installer (15.0, Beta 1)
 
-* Download from apple (macOS 15.0, 24A5264n, Beta 1): <https://swcdn.apple.com/content/downloads/50/33/052-49060-A_SUZPTRSXUG/rshd6um52uzcxnr1u85utqhl124vmsph1c/InstallAssistant.pkg>
-* More builds: <https://mrmacintosh.com/macos-sequoia-full-installer-database-download-directly-from-apple/>
+* Download from Apple [macOS 15.0 Beta 1 (24A5264n)](https://swcdn.apple.com/content/downloads/50/33/052-49060-A_SUZPTRSXUG/rshd6um52uzcxnr1u85utqhl124vmsph1c/InstallAssistant.pkg)
+* Download future [macOS Sequoia builds - linked from Mr. Machintosh](https://mrmacintosh.com/macos-sequoia-full-installer-database-download-directly-from-apple)
 
 
 2. Verify the version is correct
